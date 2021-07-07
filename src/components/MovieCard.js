@@ -11,11 +11,11 @@ class MovieCard extends React.Component {
         <img className="movie-image" src={ imagePath } alt={ title } />
         <h2 className="movie-title">{ title }</h2>
         <span className="movie-storyline">{ storyline }</span>
-        <button className="button-details" type="submit">
           <Link to={ `/movies/${id}` }>
-            VER DETALHES
+            <button className="button-details" type="submit">
+              VER DETALHES
+            </button>
           </Link>
-        </button>
       </div>
     );
   }

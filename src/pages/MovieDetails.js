@@ -56,7 +56,7 @@ class MovieDetails extends Component {
         <p className="movie-details-subtitle">{ `Subtitle: ${subtitle}` }</p>
         <p className="movie-details-storyline">{ `Storyline: ${storyline}` }</p>
         <p className="movie-details-genre">{ `Genre: ${genre}` }</p>
-        <p className="movie-details-rating">{ `Rating: ${rating}` }</p>
+        <span className="movie-details-rating">Rating</span><span className="movie-details-rating-value">{ rating }</span>
         <div className="movie-details-buttons">
           <button className="movie-details-button-back" type="button">
             <Link to="/">VOLTAR</Link>

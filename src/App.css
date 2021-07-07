@@ -83,8 +83,7 @@ button:hover {
 }
 
 .movie-title {
-  color: white;
-  margin-top: -2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -94,16 +93,17 @@ button:hover {
   margin-bottom: 1rem;
 }
 
-.button-details {
+a .button-details {
   background-color: black;
   border: none;
   border-radius: 10px;
   margin: 5px;
   padding: .5rem;
   transition: 500ms;
+  width: 100%;
 }
 
-.button-details a {
+.button-details {
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -116,6 +116,10 @@ button:hover {
 }
 
 /* ----------------------- Movie Details ----------------------- */
+
+.movie-details {
+  text-align: center;
+}
 
 .movie-details-title {
   font-size: 3rem;
@@ -132,6 +136,20 @@ button:hover {
 .movie-details-subtitle, .movie-details-storyline, .movie-details-genre, .movie-details-rating, .movie-details-buttons {
   text-align: center;
   margin: .5rem;
+}
+
+.movie-details-storyline {
+  display: inline-block;
+  width: 50%;
+}
+
+.movie-details-rating-value {
+  background-color: orange;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  width: 3%;
 }
 
 /* ----------------------- Movie Details Buttons ----------------------- */
