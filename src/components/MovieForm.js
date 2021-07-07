@@ -86,6 +86,7 @@ class MovieForm extends React.Component {
         <label className="movie-form-label" htmlFor="movie_storyline">
         Sinopse
           <textarea
+            placeholder="Insira a sinopse"
             className="movie-form-textarea"
             id="movie_storyline"
             value={ storyline }
@@ -103,6 +104,7 @@ class MovieForm extends React.Component {
         <label className="movie-form-label" htmlFor="movie_genre">
           Gênero
           <select
+            className="movie-form-input"
             id="movie_genre"
             value={ genre }
             onChange={ (event) => this.updateMovie('genre', event.target.value) }

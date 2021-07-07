@@ -170,7 +170,23 @@ button:hover {
 }
 
 .movie-form-input {
+  display: block;
+  margin: 0 auto;
+  margin-top: .5rem;
+  text-align: center;
   padding: .3rem 1rem;
+  width: 90%;
+}
+
+.movie-form-textarea {
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: .5rem;
+  padding-top: 2.5rem;
+  resize: none;
+  text-align: center;
+  width: 90%;
 }
 
 .movie-form-button, .movie-form-button-back {
