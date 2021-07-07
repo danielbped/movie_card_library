@@ -51,7 +51,7 @@ button:hover {
   width: 30%;
 }
 
-.add-button a {
+.add-button a, .movie-form-button-back a {
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -150,7 +150,7 @@ button:hover {
   transition: 500ms;
 }
 
-.movie-details-button-back {
+.movie-details-button-back, .movie-form-button-back {
   background-color: green;
 }
 
@@ -173,13 +173,22 @@ button:hover {
   padding: .3rem 1rem;
 }
 
-.movie-form-button {
+.movie-form-button, .movie-form-button-back {
   border: none;
   border-radius: 10px;
-  background-color: blue;
   padding: .5rem;
   color: white;
   font-weight: bold;
   text-decoration: none;
   transition: 500ms
+}
+
+.movie-form-button {
+  background-color: blue;
+  margin-left: 1rem;
+}
+
+.movie-form-button-back {
+  background-color: green;
+  margin-right: 1rem;
 }
