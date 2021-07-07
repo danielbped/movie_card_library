@@ -50,22 +50,24 @@ class MovieDetails extends Component {
     if (loading) return <Loading />;
     if (shouldRedirect) return <Redirect to="/" />;
     return (
-      <div data-testid="movie-details">
-        <img alt="Movie Cover" src={ `../${imagePath}` } />
-        <h2>{ title }</h2>
-        <p>{ `Subtitle: ${subtitle}` }</p>
-        <p>{ `Storyline: ${storyline}` }</p>
-        <p>{ `Genre: ${genre}` }</p>
-        <p>{ `Rating: ${rating}` }</p>
-        <button type="button">
-          <Link to="/">VOLTAR</Link>
-        </button>
-        <button type="button">
-          <Link to={ `/movies/${id}/edit` }>EDITAR</Link>
-        </button>
-        <button onClick={ () => this.handleSubmit(id) } type="button">
-          <Link to="/">DELETAR</Link>
-        </button>
+      <div className="movie-details" data-testid="movie-details">
+        <h2 className="movie-details-title">{ title }</h2>
+        <img className="movie-details-image" alt="Movie Cover" src={ `../${imagePath}` } />
+        <p className="movie-details-subtitle">{ `Subtitle: ${subtitle}` }</p>
+        <p className="movie-details-storyline">{ `Storyline: ${storyline}` }</p>
+        <p className="movie-details-genre">{ `Genre: ${genre}` }</p>
+        <p className="movie-details-rating">{ `Rating: ${rating}` }</p>
+        <div className="movie-details-buttons">
+          <button className="movie-details-button-back" type="button">
+            <Link to="/">VOLTAR</Link>
+          </button>
+          <button className="movie-details-button-edit" type="button">
+            <Link to={ `/movies/${id}/edit` }>EDITAR</Link>
+          </button>
+          <button className="movie-details-button-delete" onClick={ () => this.handleSubmit(id) } type="button">
+            <Link to="/">DELETAR</Link>
+          </button>
+        </div>
       </div>
     );
   }

@@ -7,11 +7,11 @@ class MovieCard extends React.Component {
     const { movie, key } = this.props;
     const { title, imagePath, storyline, id } = movie;
     return (
-      <div key={ key } data-testid="movie-card">
-        <img src={ imagePath } alt={ title } />
-        <h2>{ title }</h2>
-        <span>{ storyline }</span>
-        <button type="submit">
+      <div key={ key } className="movie-card" data-testid="movie-card">
+        <img className="movie-image" src={ imagePath } alt={ title } />
+        <h2 className="movie-title">{ title }</h2>
+        <span className="movie-storyline">{ storyline }</span>
+        <button className="button-details" type="submit">
           <Link to={ `/movies/${id}` }>
             VER DETALHES
           </Link>

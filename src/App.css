@@ -1,5 +1,173 @@
-body {
-  background-color: whitesmoke;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  background-color: whitesmoke;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* ----------------------- Main ----------------------- */
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-list {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.add-button {
+  align-self: center;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  padding: .5rem;
+  transition: 500ms;
+  width: 30%;
+}
+
+.add-button a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ----------------------- Movie Card ----------------------- */
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 30%;
+}
+
+.movie-image {
+  width: 100%;
+}
+
+.movie-title {
+  color: white;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.movie-storyline {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.button-details {
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  padding: .5rem;
+  transition: 500ms;
+}
+
+.button-details a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ----------------------- Loading ----------------------- */
+
+.loading {
+  text-align: center;
+}
+
+/* ----------------------- Movie Details ----------------------- */
+
+.movie-details-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.movie-details-image {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.movie-details-subtitle, .movie-details-storyline, .movie-details-genre, .movie-details-rating, .movie-details-buttons {
+  text-align: center;
+  margin: .5rem;
+}
+
+/* ----------------------- Movie Details Buttons ----------------------- */
+
+.movie-details-button-edit a, .movie-details-button-delete a, .movie-details-button-back a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.movie-details-button-edit, .movie-details-button-delete, .movie-details-button-back {
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  padding: .5rem;
+  transition: 500ms;
+}
+
+.movie-details-button-back {
+  background-color: green;
+}
+
+.movie-details-button-delete {
+  background-color: red;
+}
+
+.movie-details-button-edit {
+  background-color: blue;
+}
+
+/* ----------------------- Movie Form ----------------------- */
+
+.movie-form {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.movie-form-input {
+  padding: .3rem 1rem;
+}
+
+.movie-form-button {
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  padding: .5rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 500ms
+}
