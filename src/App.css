@@ -57,6 +57,18 @@ button:hover {
   text-decoration: none;
 }
 
+.main-filter {
+  align-self: center;
+}
+
+.search-input {
+  margin: 0 1rem;
+}
+
+.search-checkbox {
+  margin-right: 1rem;
+}
+
 /* ----------------------- Movie Card ----------------------- */
 
 .movie-card {
