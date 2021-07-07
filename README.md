@@ -50,7 +50,7 @@
 # Módulo 2: Desenvolvimento Front End
   - Bloco 13: Ciclo de vida de componentes e React Router
  
-# Requisitos - [Movie Card Library CRUD(Create, Read, Update, Delete)](https://github.com/tryber/sd-012-project-movie-card-library-crud/pull/78)
+# Requisitos - [Movie Card Library CRUD](https://github.com/tryber/sd-012-project-movie-card-library-crud/pull/78)(Create, Read, Update, Delete)
 - [x] Renderize `BrowserRouter` no componente `App` usando rotas
 - [x] Faça uma requisição para buscar e mostrar a lista de filmes quando `MovieList` for montado 
 - [x] Insira um link para a página de detalhes de um filme dentro de `MovieCard`
