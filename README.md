@@ -3,7 +3,7 @@
   # Módulo 2: Desenvolvimento Front End
    - Bloco 11: Introdução à React
 
-# Requisitos - [Movie Card Library](https://github.com/tryber/sd-012-project-movie-cards-library/pull/33)
+### Requisitos - [Movie Card Library](https://github.com/tryber/sd-012-project-movie-cards-library/pull/33)
 - [x] Crie um componente `<Header />`
 - [x] Renderize um texto no `<Header />`
 - [x] Crie um componente `<MovieList />`
@@ -25,7 +25,7 @@
 # Módulo 2: Desenvolvimento Front End
    - Bloco 12: Componentes com estado, eventos e formulário com React
 
-# Requisitos - [Movie Card Library Stateful](https://github.com/tryber/sd-012-project-movie-cards-library-stateful/pull/5)
+### Requisitos - [Movie Card Library Stateful](https://github.com/tryber/sd-012-project-movie-cards-library-stateful/pull/5)
 - [x] Crie um componente chamado `<SearchBar />`
 - [x] Renderize um formulário dentro de `<SearchBar />`
 - [x] Renderize um input do tipo texto dentro do formulário em `<SearchBar />`
@@ -50,7 +50,7 @@
 # Módulo 2: Desenvolvimento Front End
   - Bloco 13: Ciclo de vida de componentes e React Router
  
-# Requisitos - [Movie Card Library CRUD](https://github.com/tryber/sd-012-project-movie-card-library-crud/pull/78) (Create, Read, Update, Delete)
+### Requisitos - [Movie Card Library CRUD](https://github.com/tryber/sd-012-project-movie-card-library-crud/pull/78) (Create, Read, Update, Delete)
 - [x] Renderize `BrowserRouter` no componente `App` usando rotas
 - [x] Faça uma requisição para buscar e mostrar a lista de filmes quando `MovieList` for montado 
 - [x] Insira um link para a página de detalhes de um filme dentro de `MovieCard`
